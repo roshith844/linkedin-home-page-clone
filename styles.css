@@ -1,8 +1,24 @@
+header{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+}
 .logo img{
      height: 84px;
      width: 137px;
      margin-left: 7.5%;
      margin-top: 15px;
+}
+.logo{
+     background-color: red;
+     width: 200px;
+}
+.buttons{
+     height: 100px;
+     width: 50%;
+
+     background-color: green;
 }
 
 
