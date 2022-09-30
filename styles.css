@@ -17,7 +17,23 @@ header{
 .buttons{
      height: 100px;
      width: 50%;
-     background-color: green;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.buttons button{
+     margin-left: 10px;
+     padding: 13px;
+     border-radius: 10px;
+     font-size: medium;
+     
+}
+.joinandsignup{
+     margin-left: 23%;
+}
+#join-button{
+    color: rgba(0, 0, 0, 0, 100%);
+    background-color: grey;
 }
 
 
