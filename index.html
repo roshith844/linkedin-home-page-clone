@@ -10,7 +10,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./styles.css">
   <title>LinkedIn</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 </head>
 
 <body>
@@ -18,7 +19,7 @@
     <nav class="navbar">
       <ul class="nav_list">
         <li class="nav_list_item logo"><img src="./images/linkedin-logo.svg" width="23%" alt="linkedin"></li>
-      
+
         <li class="d-none d-md-flex nav_list_item items">
           <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
             fill="none" focusable="false" class="lazy-loaded">
@@ -41,14 +42,15 @@
           </span>
         </li>
         <li class="d-none d-md-flex nav_list_item items">
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" focusable="false" class="lazy-loaded">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" focusable="false"
+            class="lazy-loaded">
             <path fill-rule="evenodd" clip-rule="evenodd"
               d="M23 3H1a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h22a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1ZM2 19h20V5H2v14Z"
               fill="#000000" fill-opacity="0.6"></path>
             <path fill-rule="evenodd" clip-rule="evenodd" d="M4 9h6V7H4v2Zm0 4h6v-2H4v2Zm0 4h6v-2H4v2Zm-2 2h10V5H2v14Z"
               fill="#000000" fill-opacity="0.25"></path>
-            <path fill-rule="evenodd" clip-rule="evenodd" d="M14 9h6V7h-6v2Zm0 4h6v-2h-6v2Zm6 4h-6v-2h6v2Z" fill="#000000"
-              fill-opacity="0.6"></path>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M14 9h6V7h-6v2Zm0 4h6v-2h-6v2Zm6 4h-6v-2h6v2Z"
+              fill="#000000" fill-opacity="0.6"></path>
             <path fill-rule="evenodd" clip-rule="evenodd"
               d="M10 7.534v8.933a.28.28 0 0 0 .439.23l6.433-4.436A.307.307 0 0 0 17 12a.305.305 0 0 0-.128-.26l-6.433-4.437a.28.28 0 0 0-.439.23Z"
               fill="#000000" fill-opacity="0.6"></path>
@@ -58,7 +60,8 @@
           </span>
         </li>
         <li class="d-none d-md-flex nav_list_item items items-n">
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" focusable="false" class="lazy-loaded">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" focusable="false"
+            class="lazy-loaded">
             <path
               d="M15 4V3c0-1.7-1.3-3-3-3H8C6.3 0 5 1.3 5 3v1H0v4c0 1.7 1.3 3 3 3h14c1.7 0 3-1.3 3-3V4h-5ZM7 3c0-.6.4-1 1-1h4c.6 0 1 .4 1 1v1H7V3Zm10 9c1.2 0 2.3-.5 3-1.4V15c0 1.7-1.3 3-3 3H3c-1.7 0-3-1.3-3-3v-4.4c.7.9 1.8 1.4 3 1.4h14Z"
               fill="#000000" fill-opacity="0.6"></path>
@@ -73,25 +76,32 @@
     </nav>
   </header>
   <main>
-    <section class="hero">
-      <div class="hero_content">
-        <h1 class="hero_head">Join the biggest professional community</h1>
-        <form class="hero_form">
-          <input type="email" name="email" id="email" placeholder="Email">
-          <input type="password" name="password" id="password" placeholder="Password (8+ characters)">
-          <p class="form_t-c">By clicking Agree & Join, you agree to the LinkedIn <a href="#">User Agreement</a>, <a
-              href="#">Privacy
-              Policy</a>, and <a href="#">Cookie</a>
-            Policy.
-          </p>
-          <button class="form_btn" type="submit">Agree & Join</button>
-        </form>
-        <p class="form_alter">or &nbsp;</p>
-        <div style="width: 60%; display: flex; justify-content: center;">
-          <p class="form_login">Already on LinkedIn? <a href="#">Sign in</a></p>
+    <section class="hero container">
+      <!-- row starts-->
+      <div class="row">
+        <!-- 1st element starts -->
+        <div class="hero_content col-md-6 col-12">
+          <h1 class="hero_head">Join the biggest professional community</h1>
+          <form class="hero_form">
+            <input type="email" name="email" id="email" placeholder="Email">
+            <input type="password" name="password" id="password" placeholder="Password (8+ characters)">
+            <p class="form_t-c">By clicking Agree & Join, you agree to the LinkedIn <a href="#">User Agreement</a>, <a
+                href="#">Privacy
+                Policy</a>, and <a href="#">Cookie</a>
+              Policy.
+            </p>
+            <button class="form_btn" type="submit">Agree & Join</button>
+          </form>
+          <p class="form_alter">or &nbsp;</p>
+          <div style="width: 60%; display: flex; justify-content: center;">
+            <p class="form_login">Already on LinkedIn? <a href="#">Sign in</a></p>
+          </div>
         </div>
+        <!-- 1st element ends -->
+        <!-- 2nd elmet start -->
+        <img src="./images/hero-image.svg" alt="hero" class="hero_img col-md-6 col-12">
       </div>
-      <img src="./images/hero-image.svg" alt="hero" class="hero_img">
+      <!-- second element ends -->
     </section>
 
     <section class="what-to-do">
@@ -99,43 +109,46 @@
       <div class="what-to-do_cta">
         <div class="what-to-do_btn">
           Search for a job
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="artdeco-icon lazy-loaded" focusable="false">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="artdeco-icon lazy-loaded"
+            focusable="false">
             <path d="M14 12L8 3.06 9.55 2l6.19 9.15a1.5 1.5 0 010 1.69L9.55 22 8 20.94z" fill="rgba(0, 0, 0, 0.6)">
             </path>
           </svg>
         </div>
         <div class="what-to-do_btn">
           Find a person you know
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="artdeco-icon lazy-loaded" focusable="false">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="artdeco-icon lazy-loaded"
+            focusable="false">
             <path d="M14 12L8 3.06 9.55 2l6.19 9.15a1.5 1.5 0 010 1.69L9.55 22 8 20.94z" fill="rgba(0, 0, 0, 0.6)">
             </path>
           </svg>
         </div>
         <div class="what-to-do_btn">
           Learn a new skill
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="artdeco-icon lazy-loaded" focusable="false">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="artdeco-icon lazy-loaded"
+            focusable="false">
             <path d="M14 12L8 3.06 9.55 2l6.19 9.15a1.5 1.5 0 010 1.69L9.55 22 8 20.94z" fill="rgba(0, 0, 0, 0.6)">
             </path>
           </svg>
         </div>
       </div>
-      </section>
-      <section class="explore">
-        <h1 class="explore_head">Explore topics you<br />are interested in</h1>
-        <div class="explore_cta">
-          <p>CONTENT TOPICS</p>
-          <div>
-            <a href="#" class="explore_btn">See All Topics</a>
-            <a href="#" class="explore_btn">Workplace</a>
-            <a href="#" class="explore_btn">Job Search</a>
-            <a href="#" class="explore_btn">Careers</a>
-            <a href="#" class="explore_btn">Interviewing</a>
-            <a href="#" class="explore_btn">Salary and Compensation</a>
-            <a href="#" class="explore_btn">Internships</a>
-            <a href="#" class="explore_btn">Employee Benefits</a>
-          </div>
+    </section>
+    <section class="explore">
+      <h1 class="explore_head">Explore topics you<br />are interested in</h1>
+      <div class="explore_cta">
+        <p>CONTENT TOPICS</p>
+        <div>
+          <a href="#" class="explore_btn">See All Topics</a>
+          <a href="#" class="explore_btn">Workplace</a>
+          <a href="#" class="explore_btn">Job Search</a>
+          <a href="#" class="explore_btn">Careers</a>
+          <a href="#" class="explore_btn">Interviewing</a>
+          <a href="#" class="explore_btn">Salary and Compensation</a>
+          <a href="#" class="explore_btn">Internships</a>
+          <a href="#" class="explore_btn">Employee Benefits</a>
         </div>
-      </section>
+      </div>
+    </section>
     <section class="jobs">
       <h1 class="jobs_head">Find the right job or<br />internship for you</h1>
       <div class="jobs_cta">
@@ -240,10 +253,11 @@
       <a href="#">Posts</a>
     </div>
   </footer>
-  
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
- 
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+
 </body>
 
 </html>
-
