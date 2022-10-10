@@ -433,6 +433,8 @@ body {
 .dream_content {
   width: 70%;
   /* padding: 80px 100px 80px 200px; */
+  display: flex;
+  align-items: center;
   background-color: #f4faff;
   box-sizing: border-box;
 }
