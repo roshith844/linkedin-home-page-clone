@@ -1,5 +1,5 @@
 * {
-  margin: 0;
+ 
   box-sizing: border-box;
 }
 
@@ -10,9 +10,25 @@ body {
   font-family: sans-serif;
   /* overflow: hidden; */
   overflow-x: hidden;
+}
+.row,header,main,section.what-to-do{
+  width: 100%;
+  min-width: 100%;
+  padding-left: 0;
+  margin-left: 0;
+  padding-right: 0;
+  margin-right: 0;
+
 
 }
-
+section.what-to-do .row{
+  display: flex;
+  justify-content: space-between;
+}
+img.hero{
+  padding-left: 0;
+  margin-left: 0;
+}
 .navbar {
   padding: 0 100px;
   width: 100%;
@@ -192,7 +208,7 @@ body {
 
 /* What to do */
 .what-to-do {
-  background-color: #f1ece5;
+  background-color: #F1ECE5;
 
   display: flex;
   align-items: center;
