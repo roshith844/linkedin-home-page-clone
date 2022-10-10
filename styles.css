@@ -136,6 +136,7 @@ img.hero {
   padding: 50px 0 0;
   overflow-x: hidden;
   box-sizing: border-box;
+  margin-left: 0;
 }
 
 .hero_img {
@@ -144,7 +145,15 @@ img.hero {
 }
 
 .hero_content {
-  padding: 20px 0 0 100px;
+  padding: 0px 0 0 0px;
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+input{
+  flex: 1;
+
 }
 
 .hero_head {
