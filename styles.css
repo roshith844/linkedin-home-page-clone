@@ -448,21 +448,30 @@ body {
 
 /* footer  */
 footer {
-  padding: 50px 100px;
-  display: grid;
+  /* width: 100%; */
+  /*  padding: 50px 100px;
+ display: grid;
   column-gap: 8px;
   grid-template-columns: repeat(5, 1fr);
-  background-color: #f3f3f3;
+  */
+  background-color: #f3f3f3; 
 }
-
+.footer_logo img{
+  width: 100px;
+  height: 100px;
+}
+footer .item{
+    display: flex;
+    flex-direction: column;
+}
 footer div {
   display: flex;
-  flex-direction: column;
+  
 }
 
 footer div p {
   font-size: 1.1rem;
-  margin-bottom: 8px;
+  margin-bottom: 8px; 
 }
 
 footer div a {
@@ -473,6 +482,12 @@ footer div a {
 
 footer div a:hover {
   color: rgb(76, 76, 235);
+}
+.container,footer,.row{
+ width: 100%;
+}
+div .footer_logo{
+     width: 150px;
 }
 
 /* slider */
