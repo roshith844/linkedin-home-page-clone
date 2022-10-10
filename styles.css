@@ -11,6 +11,7 @@ body {
   /* overflow: hidden; */
   overflow-x: hidden;
 }
+/* for responsiveness */
 .row,header,main,section.what-to-do{
   width: 100%;
   min-width: 100%;
@@ -25,6 +26,14 @@ section.what-to-do .row{
   display: flex;
   justify-content: space-between;
 }
+.container.ofdream{
+  width: 100%;
+  display: flex;
+  padding-right: 0;
+
+}
+
+/*****************************************/
 img.hero{
   padding-left: 0;
   margin-left: 0;
@@ -439,7 +448,7 @@ img.hero{
 }
 
 .dream_show iframe {
-  /* margin: 0 -200px 0 auto; */
+   /* margin: 0 -200px 0 auto;  */
   width: 700px;
   height: 350px;
   border-radius: 5px;
@@ -453,6 +462,7 @@ img.hero{
   align-items: center;
   background-color: #f4faff;
   box-sizing: border-box;
+  padding-left: 0;
 }
 
 .dream_content h2 {
@@ -464,7 +474,7 @@ img.hero{
 
 /* footer  */
 footer {
-  /* width: 100%; */
+ width: 100%;
   /*  padding: 50px 100px;
  display: grid;
   column-gap: 8px;
@@ -566,6 +576,7 @@ div .footer_logo{
   align-items: center;
   height: 100%;
   color: #FFF;
+  background-color: #f3f2f0;
 }
 
 #slides .frame_1 {}
@@ -636,7 +647,7 @@ label {
   color: black;
   background-color: #000000;
   border-right: 10px solid black;
-
+  width: 100%;
 }
 
 #frame1:checked~#bullets label:nth-child(1),
