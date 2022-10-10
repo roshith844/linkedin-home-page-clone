@@ -1,5 +1,4 @@
 * {
-
   box-sizing: border-box;
 }
 
@@ -10,6 +9,7 @@ body {
   font-family: sans-serif;
   /* overflow: hidden; */
   overflow-x: hidden;
+  height: auto;
 }
 
 /* for responsiveness */
@@ -34,11 +34,16 @@ section.what-to-do .row {
   justify-content: space-between;
 }
 
-.container.ofdream {
+.container.ofdream, .container.ofdream .row{
   width: 100%;
-  display: flex;
-  padding-right: 0;
+  padding: 0;
+  margin: 0;
+  background-color: #F3F3F3;
 
+}
+.footer{
+  width: 100%;
+  flex:0;
 }
 
 /*****************************************/
